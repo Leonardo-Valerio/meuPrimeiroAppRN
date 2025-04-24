@@ -4,6 +4,8 @@ import { Button } from 'react-native-elements';
 import styled from 'styled-components/native';
 import { HeaderContainer, HeaderTitle } from '../components/Header';
 import theme from '../styles/theme';
+import { Appointment } from '../types/appointments';
+import { RootStackParamList } from '../types/navigation';
 
 type RootStackParamList = {
   Home: undefined;
