@@ -147,7 +147,7 @@ const Content = styled.View`
   padding: ${theme.spacing.medium}px;
 `;
 
-const AppointmentList = styled(FlatList)`
+const AppointmentList = styled(FlatList<Appointment>)`
   flex: 1;
 `;
 
